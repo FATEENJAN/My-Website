@@ -59,5 +59,5 @@ Contact
 
 ## If you'd like to get in touch, feel free to connect with me on social media or send me an email
 
-   -Instagram: instagram.com/fateenwajahat
-   -GitHub: github.com/fateenwajahat
+   -Instagram: https://instagram.com/fateenwajahat
+   -GitHub: https://github.com/fateenwajahat
