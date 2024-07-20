@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fateen Wajahat Jan</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        body {
+            font-family: 'JetBrains Mono', monospace;
+            background-color: #1a202c;
+            color: #e2e8f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .typewriter h1 {
+            overflow: hidden;
+            border-right: .15em solid #42b883;
+            white-space: nowrap;
+            margin: 0 auto;
+            letter-spacing: .15em;
+            animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0
+            }
+
+            to {
+                width: 100%
+            }
+        }
+
+        @keyframes blink-caret {
+            from,
+            to {
+                border-color: transparent
+            }
+
+            50% {
+                border-color: #42b883;
+            }
+        }
+
+        .fade-in {
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(100px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .reveal-visible {
+            opacity: 1;
+            transform: none;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-gray-100">
+    <header class="bg-gray-800 text-center py-6">
+        <div class="container mx-auto">
+            <div class="typewriter">
+                <h1 class="text-4xl md:text-5xl font-bold text-green-400">Fateen Wajahat Jan</h1>
+            </div>
+            <nav class="mt-4">
+                <ul class="flex justify-center space-x-6">
+                    <li><a href="#bio" class="text-green-400 hover:text-green-300 uppercase">Bio</a></li>
+                    <li><a href="#skills" class="text-green-400 hover:text-green-300 uppercase">Skills</a></li>
+                    <li><a href="#blog" class="text-green-400 hover:text-green-300 uppercase">Blog</a></li>
+                    <li><a href="#contact" class="text-green-400 hover:text-green-300 uppercase">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto p-6">
+        <section id="bio" class="my-8 bg-gray-800 p-6 rounded-lg transform transition-transform hover:scale-105 reveal">
+            <h2 class="text-3xl text-green-400 mb-4">About Me</h2>
+            <p>Hi! I'm Fateen Wajahat Jan, a class 10 student with a passion for programming. I use Linux and code primarily in Java. My goal is to become a software developer.</p>
+        </section>
+        <section id="skills" class="my-8 bg-gray-800 p-6 rounded-lg transform transition-transform hover:scale-105 reveal">
+            <h2 class="text-3xl text-green-400 mb-4">Skills</h2>
+            <ul class="list-disc list-inside space-y-2">
+                <li>Programming Languages: Java, Python</li>
+                <li>Operating System: Linux</li>
+                <li>Tools: Git, GitHub, Vs-Code, Vim, Bash</li>
+            </ul>
+        </section>
+        <section id="blog" class="my-8 bg-gray-800 p-6 rounded-lg transform transition-transform hover:scale-105 reveal">
+            <h2 class="text-3xl text-green-400 mb-4">Blog</h2>
+            <article class="my-4">
+                <h3 class="text-2xl text-green-400">Welcome to My Programming Journey</h3>
+                <p>Hello everyone! My name is Fateen Wajahat Jan, a passionate programmer and a class 10 student. I have always been fascinated by technology and the endless possibilities it offers. Today, I want to share my journey into the world of programming and how it has shaped my life.</p>
+            </article>
+            <article class="my-4">
+                <h3 class="text-2xl text-green-400">The Beginning</h3>
+                <p>My journey began a few years ago when I was introduced to programming in school. Initially, it seemed like a foreign language, but as I delved deeper, I realized how powerful and exciting it could be. I started with basic languages like Scratch and quickly moved on to more complex ones like Python and Java.</p>
+            </article>
+            <article class="my-4">
+                <h3 class="text-2xl text-green-400">Why Java?</h3>
+                <p>Out of all the programming languages I've learned, Java has become my favorite. Its versatility, extensive libraries, and strong community support make it an excellent choice for both beginners and experienced developers. Java's object-oriented nature allows for modular, maintainable code, which is essential for larger projects.</p>
+            </article>
+            <article class="my-4">
+                <h3 class="text-2xl text-green-400">Embracing Linux</h3>
+                <p>Embracing Linux has been a game-changer. It offers a robust, secure, and customizable environment that has greatly enhanced my productivity and understanding of operating systems. The open-source nature of Linux has also exposed me to a vibrant community of developers who are always willing to share knowledge and help each other grow.</p>
+            </article>
+            <article class="my-4">
+                <h3 class="text-2xl text-green-400">Projects and Learning</h3>
+                <p>Throughout my journey, I’ve worked on various projects that have helped me apply what I’ve learned. From simple applications to more complex systems, each project has taught me valuable lessons. One of the most rewarding experiences has been contributing to open-source projects on GitHub. It’s incredible to see how collaboration can lead to innovative solutions and personal growth.</p>
+            </article>
+            <article class="my-4">
+                <h3 class="text-2xl text-green-400">Future Aspirations</h3>
+                <p>Looking ahead, my goal is to continue developing my skills and eventually become a software developer. I’m particularly interested in exploring areas like artificial intelligence, cybersecurity, and web development. The tech industry is ever-evolving, and I’m excited to be a part of this dynamic field.</p>
+            </article>
+            <article class="my-4">
+                <h3 class="text-2xl text-green-400">Join Me on This Journey</h3>
+                <p>Thank you for taking the time to read my blog. I hope to share more about my experiences, projects, and thoughts on programming and technology. If you’re passionate about coding or just curious about the tech world, I invite you to join me on this journey. Feel free to connect with me on social media or through this website. Let’s learn and grow together!</p>
+            </article>
+        </section>
+        <section id="contact" class="my-8 bg-gray-800 p-6 rounded-lg transform transition-transform hover:scale-105 reveal">
+            <h2 class="text-3xl text-green-400 mb-4">Contact Me</h2>
+            <p>If you'd like to get in touch, feel free to connect with me on social media or send me an email.</p>
+            <div class="text-center mt-4">
+                <a href="https://www.instagram.com/fateenwajahat" target="_blank" class="text-green-400 hover:text-green-300 mx-2 text-2xl">Instagram</a>
+                <a href="https://github.com/fateenjan" target="_blank" class="text-green-400 hover:text-green-300 mx-2 text-2xl">GitHub</a>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-center py-4 mt-8">
+        <p>Made with ❤️ by Fateen</p>
+    </footer>
+    <script>
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('reveal-visible');
+                    }
+                });
+            });
+        });
+
+        document.querySelectorAll('.reveal').forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+</body>
+
+</html>
