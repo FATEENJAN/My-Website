@@ -1,8 +1,6 @@
 # Fateen Wajahat Jan's Portfolio Website
 
-Welcome to the official portfolio website of Fateen Wajahat Jan, a passionate programmer, chess champion, and class 10 student with aspirations to become a software developer. This website showcases my journey, skills, projects, and contact information. Built with modern web technologies, it reflects my dedication to coding and my love for the tech world.
-
-![Website Preview](path_to_your_screenshot.png)
+Welcome to the portfolio website of Fateen Wajahat Jan, a passionate programmerand class 10 student with aspirations to become a software developer. This website showcases my journey, skills, projects, and contact information. Built with modern web technologies, it reflects my dedication to coding and my love for the tech world.
 
 ## Table of Contents
 - [About the Project](#about-the-project)
@@ -35,29 +33,9 @@ This portfolio website is a personal project to display my skills, share my prog
 - **Google Fonts**: Using the 'JetBrains Mono' font for a clean, coding-themed look.
 - **Animate.css**: For additional animation effects.
 
-## Getting Started
-
-To get a local copy up and running, follow these simple steps:
-
-### Prerequisites
-
-- A modern web browser
-- Basic understanding of HTML, CSS, and JavaScript
-
-### Installation
-
-1. **Clone the repo**
-   ```sh
-    git clone https://github.com/fateenjan/portfolio-website.git
-2. **Navigate to project directory**
-   ```sh
-    cd portfolio-website
-3. **Open the file in your browser**
-   ```sh 
-    open index.html
 Contact
 
 ## If you'd like to get in touch, feel free to connect with me on social media or send me an email
 
-   -Instagram: https://instagram.com/fateenwajahat
-   -GitHub: https://github.com/fateenwajahat
+-Instagram: https://instagram.com/fateenwajahat<br>
+-GitHub: https://github.com/fateenwajahat
